@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a0f51abf-93cb-4f2f-a68a-cbf7e01959b1" name="isak@ISAK-LAPTOP 2011-02-18 11:10:55" runUser="isak-laptop\isak" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f2b3f5d2-864a-4b9b-8d80-6c6f689129fb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="isak_ISAK-LAPTOP 2011-02-18 11_10_55">
+      <DeploymentItem filename="C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Backend\bin\Debug\ILang.Backend.dll" />
+      <DeploymentItem filename="C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Mediator\bin\Debug\ILang.Mediator.dll" />
+      <DeploymentItem filename="C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Runtime\bin\Debug\ILang.Runtime.exe" />
+      <DeploymentItem filename="C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang\bin\Debug\ILang.Frontend.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-02-18T11:10:55.3914270+01:00" queuing="2011-02-18T11:10:55.4044277+01:00" start="2011-02-18T11:10:55.4184285+01:00" finish="2011-02-18T11:10:55.7984503+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NotEqual" storage="c:\users\isak\documents\visual studio 2010\projects\ilang\ilang.test\bin\debug\ilang.test.dll" id="81628050-c49c-db4a-1b96-f2b4851b2622">
+      <Execution id="a395b8f4-914c-4c42-ad01-b672da6c26fa" />
+      <TestMethod codeBase="C:/Users/isak/Documents/Visual Studio 2010/Projects/ILang/ILang.Test/bin/Debug/ILang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ILang.Test.ILangTokenTypeTest, ILang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NotEqual" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="81628050-c49c-db4a-1b96-f2b4851b2622" executionId="a395b8f4-914c-4c42-ad01-b672da6c26fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a395b8f4-914c-4c42-ad01-b672da6c26fa" testId="81628050-c49c-db4a-1b96-f2b4851b2622" testName="NotEqual" computerName="ISAK-LAPTOP" duration="00:00:00.1281026" startTime="2011-02-18T11:10:55.4234288+01:00" endTime="2011-02-18T11:10:55.7844495+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a395b8f4-914c-4c42-ad01-b672da6c26fa">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreNotEqual failed. Expected any value except:&lt;end&gt;. Actual:&lt;end&gt;. </Message>
+          <StackTrace>   at ILang.Test.ILangTokenTypeTest.NotEqual() in C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\ILangTokenTypeTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

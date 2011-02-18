@@ -1,0 +1,13 @@
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\bin\Debug\ILang.Test.dll
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\bin\Debug\ILang.Test.pdb
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\bin\Debug\ILang.Backend.dll
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\bin\Debug\ILang.Frontend.dll
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\bin\Debug\ILang.Mediator.dll
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\bin\Debug\ILang.Runtime.exe
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\bin\Debug\ILang.Backend.pdb
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\bin\Debug\ILang.Mediator.pdb
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\bin\Debug\ILang.Runtime.pdb
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\bin\Debug\ILang.Frontend.pdb
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\obj\Debug\ILang.Test.dll
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\obj\Debug\ILang.Test.pdb

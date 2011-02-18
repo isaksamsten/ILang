@@ -1,0 +1,7 @@
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang\bin\Debug\ILang.Frontend.dll
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang\bin\Debug\ILang.Frontend.pdb
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang\bin\Debug\ILang.Mediator.dll
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang\bin\Debug\ILang.Mediator.pdb
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang\obj\Debug\ILang.Frontend.dll
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang\obj\Debug\ILang.Frontend.pdb

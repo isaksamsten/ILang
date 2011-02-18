@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2ab7f294-28b9-40b3-8666-1528b498c462" name="isak@ISAK-LAPTOP 2011-02-18 11:14:12" runUser="isak-laptop\isak" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f2b3f5d2-864a-4b9b-8d80-6c6f689129fb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="isak_ISAK-LAPTOP 2011-02-18 11_14_12[1]">
+      <DeploymentItem filename="C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Backend\bin\Debug\ILang.Backend.dll" />
+      <DeploymentItem filename="C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Mediator\bin\Debug\ILang.Mediator.dll" />
+      <DeploymentItem filename="C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Runtime\bin\Debug\ILang.Runtime.exe" />
+      <DeploymentItem filename="C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang\bin\Debug\ILang.Frontend.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-02-18T11:14:12.9107244+01:00" queuing="2011-02-18T11:14:12.9147247+01:00" start="2011-02-18T11:14:12.9707279+01:00" finish="2011-02-18T11:14:13.2407433+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Equal" storage="c:\users\isak\documents\visual studio 2010\projects\ilang\ilang.test\bin\debug\ilang.test.dll" id="d7fbe302-5ce5-72d6-76de-46a65cdb3ba7">
+      <Execution id="9bcad5af-b7ff-4756-8ece-f54759ca6839" />
+      <TestMethod codeBase="C:/Users/isak/Documents/Visual Studio 2010/Projects/ILang/ILang.Test/bin/Debug/ILang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ILang.Test.ILangTokenTypeTest, ILang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Equal" />
+    </UnitTest>
+    <UnitTest name="CreateInvalid" storage="c:\users\isak\documents\visual studio 2010\projects\ilang\ilang.test\bin\debug\ilang.test.dll" id="02da5a01-5726-712e-2756-691aaa3f8eb8">
+      <Execution id="cf2ad769-49ba-43c2-9cb1-819825666c82" />
+      <TestMethod codeBase="C:/Users/isak/Documents/Visual Studio 2010/Projects/ILang/ILang.Test/bin/Debug/ILang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ILang.Test.ILangTokenTypeTest, ILang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateInvalid" />
+    </UnitTest>
+    <UnitTest name="NotEqual" storage="c:\users\isak\documents\visual studio 2010\projects\ilang\ilang.test\bin\debug\ilang.test.dll" id="81628050-c49c-db4a-1b96-f2b4851b2622">
+      <Execution id="6528b1b0-c8de-4971-9883-4cef937e9a51" />
+      <TestMethod codeBase="C:/Users/isak/Documents/Visual Studio 2010/Projects/ILang/ILang.Test/bin/Debug/ILang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ILang.Test.ILangTokenTypeTest, ILang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NotEqual" />
+    </UnitTest>
+    <UnitTest name="CreateValid" storage="c:\users\isak\documents\visual studio 2010\projects\ilang\ilang.test\bin\debug\ilang.test.dll" id="c5babcde-3902-cf74-41cf-071ef696a243">
+      <Execution id="5ac42437-38a4-4d53-8fa8-bc157ac44846" />
+      <TestMethod codeBase="C:/Users/isak/Documents/Visual Studio 2010/Projects/ILang/ILang.Test/bin/Debug/ILang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ILang.Test.ILangTokenTypeTest, ILang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateValid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="02da5a01-5726-712e-2756-691aaa3f8eb8" executionId="cf2ad769-49ba-43c2-9cb1-819825666c82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81628050-c49c-db4a-1b96-f2b4851b2622" executionId="6528b1b0-c8de-4971-9883-4cef937e9a51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5babcde-3902-cf74-41cf-071ef696a243" executionId="5ac42437-38a4-4d53-8fa8-bc157ac44846" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7fbe302-5ce5-72d6-76de-46a65cdb3ba7" executionId="9bcad5af-b7ff-4756-8ece-f54759ca6839" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cf2ad769-49ba-43c2-9cb1-819825666c82" testId="02da5a01-5726-712e-2756-691aaa3f8eb8" testName="CreateInvalid" computerName="ISAK-LAPTOP" duration="00:00:00.0150191" startTime="2011-02-18T11:14:12.9877288+01:00" endTime="2011-02-18T11:14:13.1997410+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf2ad769-49ba-43c2-9cb1-819825666c82">
+    </UnitTestResult>
+    <UnitTestResult executionId="6528b1b0-c8de-4971-9883-4cef937e9a51" testId="81628050-c49c-db4a-1b96-f2b4851b2622" testName="NotEqual" computerName="ISAK-LAPTOP" duration="00:00:00.0006235" startTime="2011-02-18T11:14:13.2047413+01:00" endTime="2011-02-18T11:14:13.2117417+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6528b1b0-c8de-4971-9883-4cef937e9a51">
+    </UnitTestResult>
+    <UnitTestResult executionId="5ac42437-38a4-4d53-8fa8-bc157ac44846" testId="c5babcde-3902-cf74-41cf-071ef696a243" testName="CreateValid" computerName="ISAK-LAPTOP" duration="00:00:00.0003034" startTime="2011-02-18T11:14:13.2137418+01:00" endTime="2011-02-18T11:14:13.2187421+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ac42437-38a4-4d53-8fa8-bc157ac44846">
+    </UnitTestResult>
+    <UnitTestResult executionId="9bcad5af-b7ff-4756-8ece-f54759ca6839" testId="d7fbe302-5ce5-72d6-76de-46a65cdb3ba7" testName="Equal" computerName="ISAK-LAPTOP" duration="00:00:00.0004126" startTime="2011-02-18T11:14:13.2217422+01:00" endTime="2011-02-18T11:14:13.2267425+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bcad5af-b7ff-4756-8ece-f54759ca6839">
+    </UnitTestResult>
+  </Results>
+</TestRun>

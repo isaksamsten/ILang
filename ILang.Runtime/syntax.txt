@@ -1,0 +1,32 @@
+﻿<rel op>		  ::= = < > <= >= !=
+
+<variable>	      ::= <identifier>
+
+<identifier>	  ::= word
+
+<statement>       ::= <method statement> | <assignment statement>
+
+<statement list>  ::= <statement>; { <statement>; }
+
+<assignment statement> ::= <variable> := <expression> 
+
+<method statement> ::= method <identifier> [<argument-list>]; <statement-list> end
+
+<class statement>  ::= class <identifier> : <super-class-list>; <statement-list> { <method-statement> } end
+
+<simple-expression> ::= +-<term> [+-or<term>]
+
+<term>			  ::= <factor> [* / and mod but <factor>]
+
+<factor>          ::= <variable> | <number> | <string> | not<factor> | (<expression>)
+ 
+<expression>      ::= <simpel expression> [ <rel op> <simple expression> ]
+
+<digit sequence>  ::= <digit> { <digit } 
+
+<while statement> ::= while <expression>; <statement> end
+
+<if statment>     ::= if <expression> <statement>
+				      {elif <expression> <statement>} else <statement>
+				      end
+				      | if <expression> <statement> [else <statement>] end

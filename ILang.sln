@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILang.Frontend", "ILang\ILang.Frontend.csproj", "{C54EEB76-1452-4354-86A7-93B67993290E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILang.Mediator", "ILang.Mediator\ILang.Mediator.csproj", "{02D483C7-7AA9-4D27-99CF-7CCF8CB53B55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILang.Backend", "ILang.Backend\ILang.Backend.csproj", "{50B936F3-DB3F-43EA-BCCB-8DA6B3452BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILang.Runtime", "ILang.Runtime\ILang.Runtime.csproj", "{0FD29EF3-4527-451B-97A0-9A69946B2DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILang.Test", "ILang.Test\ILang.Test.csproj", "{F8052AC6-9B97-4672-8696-1E7202401E5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22D841BA-9105-4255-A0DD-B1EF7E0F6938}"
+	ProjectSection(SolutionItems) = preProject
+		ILang.vsmdi = ILang.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ILang.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C54EEB76-1452-4354-86A7-93B67993290E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54EEB76-1452-4354-86A7-93B67993290E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54EEB76-1452-4354-86A7-93B67993290E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54EEB76-1452-4354-86A7-93B67993290E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D483C7-7AA9-4D27-99CF-7CCF8CB53B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D483C7-7AA9-4D27-99CF-7CCF8CB53B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D483C7-7AA9-4D27-99CF-7CCF8CB53B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D483C7-7AA9-4D27-99CF-7CCF8CB53B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B936F3-DB3F-43EA-BCCB-8DA6B3452BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B936F3-DB3F-43EA-BCCB-8DA6B3452BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B936F3-DB3F-43EA-BCCB-8DA6B3452BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B936F3-DB3F-43EA-BCCB-8DA6B3452BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD29EF3-4527-451B-97A0-9A69946B2DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD29EF3-4527-451B-97A0-9A69946B2DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD29EF3-4527-451B-97A0-9A69946B2DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD29EF3-4527-451B-97A0-9A69946B2DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8052AC6-9B97-4672-8696-1E7202401E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8052AC6-9B97-4672-8696-1E7202401E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8052AC6-9B97-4672-8696-1E7202401E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8052AC6-9B97-4672-8696-1E7202401E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

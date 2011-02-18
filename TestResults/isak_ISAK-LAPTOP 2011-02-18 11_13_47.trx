@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="97d69286-8057-4418-830f-eccda1a5b7d8" name="isak@ISAK-LAPTOP 2011-02-18 11:13:47" runUser="isak-laptop\isak" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f2b3f5d2-864a-4b9b-8d80-6c6f689129fb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="isak_ISAK-LAPTOP 2011-02-18 11_13_47">
+      <DeploymentItem filename="C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Backend\bin\Debug\ILang.Backend.dll" />
+      <DeploymentItem filename="C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Mediator\bin\Debug\ILang.Mediator.dll" />
+      <DeploymentItem filename="C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Runtime\bin\Debug\ILang.Runtime.exe" />
+      <DeploymentItem filename="C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang\bin\Debug\ILang.Frontend.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-02-18T11:13:47.4352673+01:00" queuing="2011-02-18T11:13:47.4482681+01:00" start="2011-02-18T11:13:47.4552685+01:00" finish="2011-02-18T11:13:47.7242839+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Equal" storage="c:\users\isak\documents\visual studio 2010\projects\ilang\ilang.test\bin\debug\ilang.test.dll" id="d7fbe302-5ce5-72d6-76de-46a65cdb3ba7">
+      <Execution id="5863ee73-6cd2-4581-8816-7ce9ef6cf5cc" />
+      <TestMethod codeBase="C:/Users/isak/Documents/Visual Studio 2010/Projects/ILang/ILang.Test/bin/Debug/ILang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ILang.Test.ILangTokenTypeTest, ILang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Equal" />
+    </UnitTest>
+    <UnitTest name="CreateInvalid" storage="c:\users\isak\documents\visual studio 2010\projects\ilang\ilang.test\bin\debug\ilang.test.dll" id="02da5a01-5726-712e-2756-691aaa3f8eb8">
+      <Execution id="4f4457a6-1aa4-4394-9a00-dd2661d26c87" />
+      <TestMethod codeBase="C:/Users/isak/Documents/Visual Studio 2010/Projects/ILang/ILang.Test/bin/Debug/ILang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ILang.Test.ILangTokenTypeTest, ILang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateInvalid" />
+    </UnitTest>
+    <UnitTest name="NotEqual" storage="c:\users\isak\documents\visual studio 2010\projects\ilang\ilang.test\bin\debug\ilang.test.dll" id="81628050-c49c-db4a-1b96-f2b4851b2622">
+      <Execution id="a0365a7b-285b-4354-ab7a-d79adcea29ef" />
+      <TestMethod codeBase="C:/Users/isak/Documents/Visual Studio 2010/Projects/ILang/ILang.Test/bin/Debug/ILang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ILang.Test.ILangTokenTypeTest, ILang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NotEqual" />
+    </UnitTest>
+    <UnitTest name="CreateValid" storage="c:\users\isak\documents\visual studio 2010\projects\ilang\ilang.test\bin\debug\ilang.test.dll" id="c5babcde-3902-cf74-41cf-071ef696a243">
+      <Execution id="cfa16300-071a-4d3d-aaf7-64e82c3825b8" />
+      <TestMethod codeBase="C:/Users/isak/Documents/Visual Studio 2010/Projects/ILang/ILang.Test/bin/Debug/ILang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ILang.Test.ILangTokenTypeTest, ILang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateValid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="02da5a01-5726-712e-2756-691aaa3f8eb8" executionId="4f4457a6-1aa4-4394-9a00-dd2661d26c87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81628050-c49c-db4a-1b96-f2b4851b2622" executionId="a0365a7b-285b-4354-ab7a-d79adcea29ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5babcde-3902-cf74-41cf-071ef696a243" executionId="cfa16300-071a-4d3d-aaf7-64e82c3825b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7fbe302-5ce5-72d6-76de-46a65cdb3ba7" executionId="5863ee73-6cd2-4581-8816-7ce9ef6cf5cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4f4457a6-1aa4-4394-9a00-dd2661d26c87" testId="02da5a01-5726-712e-2756-691aaa3f8eb8" testName="CreateInvalid" computerName="ISAK-LAPTOP" duration="00:00:00.0260486" startTime="2011-02-18T11:13:47.4652690+01:00" endTime="2011-02-18T11:13:47.6862817+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f4457a6-1aa4-4394-9a00-dd2661d26c87">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. </Message>
+          <StackTrace>   at ILang.Test.ILangTokenTypeTest.CreateInvalid() in C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Test\ILangTokenTypeTest.cs:line 59
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a0365a7b-285b-4354-ab7a-d79adcea29ef" testId="81628050-c49c-db4a-1b96-f2b4851b2622" testName="NotEqual" computerName="ISAK-LAPTOP" duration="00:00:00.0005795" startTime="2011-02-18T11:13:47.6892819+01:00" endTime="2011-02-18T11:13:47.6952822+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0365a7b-285b-4354-ab7a-d79adcea29ef">
+    </UnitTestResult>
+    <UnitTestResult executionId="cfa16300-071a-4d3d-aaf7-64e82c3825b8" testId="c5babcde-3902-cf74-41cf-071ef696a243" testName="CreateValid" computerName="ISAK-LAPTOP" duration="00:00:00.0003256" startTime="2011-02-18T11:13:47.6982824+01:00" endTime="2011-02-18T11:13:47.7032827+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfa16300-071a-4d3d-aaf7-64e82c3825b8">
+    </UnitTestResult>
+    <UnitTestResult executionId="5863ee73-6cd2-4581-8816-7ce9ef6cf5cc" testId="d7fbe302-5ce5-72d6-76de-46a65cdb3ba7" testName="Equal" computerName="ISAK-LAPTOP" duration="00:00:00.0004399" startTime="2011-02-18T11:13:47.7062828+01:00" endTime="2011-02-18T11:13:47.7112831+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5863ee73-6cd2-4581-8816-7ce9ef6cf5cc">
+    </UnitTestResult>
+  </Results>
+</TestRun>

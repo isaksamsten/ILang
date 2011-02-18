@@ -1,0 +1,5 @@
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Mediator\bin\Debug\ILang.Mediator.dll
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Mediator\bin\Debug\ILang.Mediator.pdb
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Mediator\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Mediator\obj\Debug\ILang.Mediator.dll
+C:\Users\isak\Documents\Visual Studio 2010\Projects\ILang\ILang.Mediator\obj\Debug\ILang.Mediator.pdb
